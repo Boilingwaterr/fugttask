@@ -1,6 +1,3 @@
-# DEMO:
-<a href="http://Boilingwaterr.github.io/fugttask/">link</a>
-
 ## Available Scripts
 
 In the project directory, you can run:
