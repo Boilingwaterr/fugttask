@@ -1,0 +1,113 @@
+.tableWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 60vh;
+    border: solid 2px  #6d6d7c;
+    border-radius: 3px;
+    overflow-y: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 2px;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.rectAscending {
+    border:5px solid transparent; 
+    border-top: 5px solid #40424b;
+}
+
+.rectDescending {
+    border: 5px solid transparent; 
+    border-bottom: 5px solid #40424b;
+}
+
+.header div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.header div p{
+    margin-right: 5px;
+}
+
+.id{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    color: #40424b;
+    background-color: #b2b6c5;
+}
+.firstName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    color: #40424b;
+    background-color: #dfbfbf;
+}
+.lastName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #40424b;
+    width: 20%;
+    background-color:#b2b6c5;
+}
+.email{
+    display: flex;
+    align-items: center;
+    color: #40424b;
+    justify-content: center;
+    width: 30%;
+    background-color: #dfbfbf;
+}
+.phone{
+    display: flex;
+    color: #40424b;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    background-color:#b2b6c5;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.tableItem{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tableItem div{
+    font-size: .9rem;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.description{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    background-color: #b2b6c5;
+    border: solid 2px  #6d6d7c;
+    border-radius: 3px;
+    color: #40424b;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.description textarea{
+    max-width: calc( 100% - 5px );
+    max-height: 50px;
+}

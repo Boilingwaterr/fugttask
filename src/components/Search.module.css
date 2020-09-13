@@ -1,0 +1,31 @@
+.searchForm{
+    width: 90vw;
+    display: flex;
+    flex-direction: row ;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.searchInput{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: 1px;
+    height: 20px;
+}
+.searchIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #b2b6c5;
+    cursor: pointer;
+}
+.searchIcon:hover{
+    background-color: #bbc1d6;
+    transition: .3s;
+}

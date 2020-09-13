@@ -1,0 +1,88 @@
+.paginator {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    color: #354050;
+    width: 30%;
+    margin: 20px auto;
+}
+
+.paginator span {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.leftArrow {
+    position: relative;
+    display: flex;
+    border-left: 3px #4f4f53 solid;
+    border-bottom: 3px #4f4f53 solid;
+    height: 10px;
+    width: 10px;
+    transform: rotate(45deg);
+}
+
+.rightArrow {
+    position: relative;
+    display: flex;
+    border-right: 3px #4f4f53 solid;
+    border-top: 3px #4f4f53 solid;
+    height: 10px;
+    width: 10px;
+    transform: rotate(45deg);
+}
+
+.doubleArrow {
+    display: flex;
+    align-items: center;
+}
+
+.rightArrowtoEnd {
+    position: relative;
+    border-right: 3px #4f4f53 solid;
+    border-top: 3px #4f4f53 solid;
+    height: 15px;
+    width: 15px;
+    margin: 0;
+    transform: rotate(45deg);
+}
+
+.rightArrowtoEnd::after {
+    content: '';
+    border-right: 3px #4f4f53 solid;
+    border-top: 3px #4f4f53 solid;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    left: 40%;
+    bottom: 40%;
+}
+
+.leftArrowtoEnd {
+    position: relative;
+    border-left: 3px #4f4f53 solid;
+    border-bottom: 3px #4f4f53 solid;
+    height: 15px;
+    width: 15px;
+    margin: 0;
+    transform: rotate(45deg);
+}
+
+.leftArrowtoEnd::after {
+    content: '';
+    border-left: 3px #4f4f53 solid;
+    border-bottom: 3px #4f4f53 solid;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    right: 40%;
+    top: 40%;
+}
+
+.currentPage {
+    font-size: 20px;
+    color: #4f4f53;
+    font-weight: bold;
+}

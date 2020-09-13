@@ -1,0 +1,71 @@
+.AddForm{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    background-color:#d6d6ff;
+}
+.header{
+    display: flex;
+    margin-bottom: 10px;
+    padding: 5px;
+    color: #40424b;
+}
+.inputWrapper{
+    display: flex;
+    margin-bottom: 10vh;
+}
+.inputWrapper input{
+    display: flex;
+    border-radius: 5px;
+    height: 20px;
+    width: 25%;
+    margin: 5px;
+}
+
+.buttonWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.backButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    height: 35px;
+    width: 100px;
+    background-color: #b2b6c5;
+    border-radius: 7px;
+    cursor: pointer;
+    color: #40424b;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.backButton:hover{
+    background-color: #c2c6d6;
+    color: #24262c;
+    transition: .3s;
+}
+
+.submitButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    height: 35px;
+    width: 100px;
+    background-color: #b2b6c5;
+    border-radius: 7px;
+    cursor: pointer;
+    color: #40424b;
+    font-weight: 600;
+    font-size: .8rem;
+    border: none;
+}
+
+.submitButton:hover{
+    background-color: #c2c6d6;
+    color: #24262c;
+    transition: .3s;
+}

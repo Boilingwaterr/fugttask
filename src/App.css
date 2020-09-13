@@ -1,0 +1,49 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #22252b;
+  width:100vw;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.App button{
+  cursor: pointer;
+  font-weight: 600;
+  color: #4c4f55;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+  border: none;
+}
+
+.button-wrapper{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 90vw;
+}
+
+.add-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  height: 30px;
+  width: 100px;
+  background-color: #b2b6c5;
+  border-radius: 7px;
+  cursor: pointer;
+  color: #40424b;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.add-button:hover{
+  background-color: #c2c6d6;
+  color: #24262c;
+  transition: .3s;
+}
